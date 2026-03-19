@@ -1,0 +1,29 @@
+{
+  "name": "team-spancerski",
+  "private": true,
+  "packageManager": "npm@11.7.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*",
+    "services/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/jsonwebtoken": "^9.0.10",
+    "prettier": "^3.2.5",
+    "turbo": "latest",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "effect": "^3.20.0",
+    "jsonwebtoken": "^9.0.3",
+    "stripe": "^20.4.1"
+  }
+}

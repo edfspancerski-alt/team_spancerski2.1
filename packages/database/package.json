@@ -1,0 +1,30 @@
+{
+  "name": "@repo/database",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "dependencies": {
+    "@langchain/openai": "^1.2.13",
+    "@mux/mux-player-react": "^3.11.5",
+    "@prisma/client": "^7.5.0",
+    "@prisma/config": "^7.5.0",
+    "@stripe/stripe-js": "^1.54.2",
+    "@upstash/redis": "^1.37.0",
+    "dotenv": "^16.6.1",
+    "effect": "^3.20.0",
+    "langchain": "^1.2.32",
+    "lucide-react": "^0.378.0",
+    "next-auth": "^4.24.13",
+    "openai": "^6.31.0",
+    "prisma": "^7.5.0",
+    "shadcn-ui": "^0.9.5",
+    "stripe": "^20.4.1",
+    "ts-node": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "dotenv-cli": "^11.0.0",
+    "typescript": "^5.9.3"
+  }
+}

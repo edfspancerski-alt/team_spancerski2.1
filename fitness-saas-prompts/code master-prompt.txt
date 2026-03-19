@@ -1,0 +1,2379 @@
+New-Item master-prompt.txt -ItemType File
+notepad master-prompt.txt
+Dashboard do usuário contendo:
+progresso de treino
+treinos concluídos
+calorias estimadas
+streak de dias ativos
+pontuação gamificada
+Cada usuário terá:
+perfil com
+peso
+altura
+idade
+objetivo
+restrições alimentares
+orçamento para alimentação
+MÓDULOS DE TREINO
+Criar sistema de módulos de treinamento estruturados
+Cada módulo deve possuir:
+título
+descrição
+thumbnail
+vídeos
+lista de exercícios
+duração
+nível de dificuldade
+progresso
+GAMIFICAÇÃO
+Criar sistema completo de gamificação
+Elementos:
+Pontos XP Badges Ranking semanal Streak diário
+Exemplos de conquistas:
+Primeiro treino 7 dias seguidos 30 treinos concluídos Primeira meta atingida
+COMUNIDADE
+Criar sistema social completo
+Funcionalidades:
+Feed da comunidade Comentários Curtidas Perfis públicos Mensagens privadas Grupos por programa
+Chat em tempo real usando WebSocket.
+SISTEMA DE IA
+Criar módulo de inteligência artificial com:
+IA de Nutrição
+Usuário informa:
+orçamento mensal
+A IA gera:
+plano alimentar personalizado
+Também gerar:
+lista de compras automatizada
+com:
+ingredientes
+quantidades
+custo estimado
+IA de Recomendações
+Sistema recomenda:
+treinos
+conteúdos
+dietas
+programas
+baseado no comportamento do usuário.
+PLANOS DE ASSINATURA
+Criar sistema de assinaturas usando Stripe.
+Planos:
+Plano Trimestral Preço: R$ 749,90
+Plano Anual Preço: R$ 2.199
+Cada plano deve mostrar:
+checklist de benefícios
+Exemplo:
+✔ acesso a todos os treinos ✔ comunidade exclusiva ✔ planos alimentares com IA ✔ novos programas mensais ✔ suporte
+Botão CTA grande:
+COMPRAR
+Criar sistema de automação com gatilhos:
+exemplos
+se usuário não treinar por 3 dias → enviar notificação
+se completar 7 treinos → liberar badge
+se completar programa → recomendar próximo
+FUNIL PARA FATURAR 1 MILHÃO EM 3 MESES
+Criar funil integrado:
+1 Lead Magnet 2 Desafio 7 dias 3 Oferta de programa 4 Upsell mentoria
+Módulo de mentoria premium.
+MÉTRICAS
+Painel analítico com:
+MRR LTV CAC retenção churn engajamento
+APLICATIVO MOBILE
+API preparada para apps mobile:
+React Native
+Flutter
+PERFORMANCE
+O sistema deve suportar:
+100k usuários simultâneos.
+TACK TECNOLÓGICA
+Use obrigatoriamente esta stack:
+Frontend
+Next.js 14 (App Router)
+React
+TypeScript
+TailwindCSS
+Shadcn UI
+Framer Motion
+Backend
+Node.js
+NestJS ou Next API Routes
+Prisma ORM
+Banco de Dados
+PostgreSQL
+Autenticação
+JWT
+OAuth (Google / Apple)
+Pagamentos
+Stripe
+Hospedagem de Vídeos
+Mux ou Cloudflare Stream
+Notificações Push
+Firebase Cloud Messaging
+IA
+headline forte
+CTA "COMEÇAR AGORA"
+imagem de treino
+Benefícios
+
+treinos guiados
+plano alimentar com IA
+comunidade exclusiva
+progresso gamificado
+Seção de programas
+8. SISTEMA DE IA
+9. PLANOS DE ASSINATURA
+Plano Trimestral
+Preço: R$ 749,90
+Plano Anual
+Preço: R$ 2.199
+✔ acesso a todos os treinos
+✔ comunidade exclusiva
+✔ planos alimentares com IA
+✔ novos programas mensais
+✔ suporte
+10. PAINEL ADMIN
+Criar dashboard administrativo completo
+Admin pode:
+criar programas
+subir vídeos
+gerenciar usuários
+ver métricas
+criar badges
+enviar notificações push
+11. WHITE LABEL
+Permitir que clientes criem sua própria versão do app.
+Configurações:
+logo
+cores
+domínio
+programas próprios
+Cada cliente pode criar sua própria plataforma.
+12. AUTOMAÇÃO DE CRESCIMENTO
+se usuário não treinar por 3 dias
+→ enviar notificação
+se completar 7 treinos
+→ liberar badge
+se completar programa
+→ recomendar próximo
+13. FUNIL PARA FATURAR 1 MILHÃO EM 3 MESES
+1 Lead Magnet
+2 Desafio 7 dias
+3 Oferta de programa
+4 Upsell mentoria
+14. MÉTRICAS
+MRR
+LTV
+CAC
+retenção
+churn
+engajamento
+15. APLICATIVO MOBILE
+16. PERFORMANCE
+17. ENTREGAS
+Gerar:
+1 arquitetura completa
+2 banco de dados Prisma
+3 estrutura de pastas
+4 APIs
+5 telas principais
+6 componentes UI
+7 documentação técnica
+OBJETIVO FINAL
+Criar uma plataforma SaaS fitness altamente escalável, com IA, comunidade, gamificação e monetização por assinatura, preparada para crescimento acelerado e white label.
+EXTRA (MUITO IMPORTANTE)
+Se quiser, eu posso também te entregar:
+o SUPER PROMPT (10x mais poderoso)
+que faz a IA gerar:
+o SaaS completo
+frontend
+backend
+banco
+auth
+dashboard
+deploy automático
+You are a world-class senior software architect and full-stack engineer with experience building billion-dollar SaaS platforms.
+Your task is to design and generate a COMPLETE production-ready SaaS platform for a scalable fitness transformation ecosystem.
+This system must be modern, modular, scalable, and capable of supporting hundreds of thousands of concurrent users.
+The platform must include:
+• training programs
+• AI nutrition
+• community
+• gamification
+• subscriptions
+• video streaming
+• white label capability
+• automation engine
+• analytics
+• mobile-ready APIs
+The final output must generate:
+1 — COMPLETE SYSTEM ARCHITECTURE
+2 — MONOREPO STRUCTURE
+3 — DATABASE SCHEMA (PRISMA)
+4 — BACKEND SERVICES
+5 — FRONTEND APPLICATION
+6 — ADMIN PANEL
+7 — AI MODULES
+8 — PAYMENT INTEGRATION
+9 — VIDEO STREAMING
+10 — COMMUNITY SYSTEM
+11 — GAMIFICATION ENGINE
+12 — AUTOMATION ENGINE
+13 — DEPLOY PIPELINE
+14 — PERFORMANCE OPTIMIZATION
+15 — DOCUMENTATION
+The final system must be production ready.
+--------------------------------
+TECH STACK (MANDATORY)
+NestJS OR Next.js API routes
+ORM
+Prisma
+Database
+Authentication
+OAuth (Google + Apple)
+Payments
+Video Hosting
+Mux OR Cloudflare Stream
+Notifications
+AI
+OpenAI API
+Infrastructure
+Vercel (frontend)
+Render OR Railway (backend)
+Cloudflare CDN
+MONOREPO STRUCTURE
+Generate the following monorepo structure.
+team-spancerski
+/apps
+   web
+   admin
+   api
+/packages
+   ui
+   database
+   auth
+   config
+/services
+   ai
+   nutrition
+   video
+   community
+   gamification
+   payments
+   notifications
+DATABASE SCHEMA (PRISMA)
+Create complete models for:
+Users
+Subscriptions
+Programs
+Modules
+Lessons
+Progress
+CommunityPosts
+Comments
+Badges
+UserBadges
+NutritionPlans
+ShoppingLists
+Achievements
+Example structure:
+User
+id
+name
+email
+password
+role
+weight
+height
+age
+goal
+budget
+createdAt
+Program
+title
+description
+image
+duration
+difficulty
+Module
+programId
+order
+Lesson
+moduleId
+videoUrl
+userId
+lessonId
+completed
+percentage
+Subscription
+plan
+status
+stripeCustomerId
+AUTHENTICATION SYSTEM
+Implement a full authentication system with:
+• user registration
+• login
+• password reset
+• OAuth login (Google / Apple)
+RBAC Roles:
+admin
+coach
+member
+MEMBER AREA DASHBOARD
+Create a modern dashboard including:
+Cards:
+• training progress
+• completed workouts
+• daily streak
+• calories burned
+• XP points
+Sections:
+• My Programs
+• Community
+• Nutrition
+• Progress
+• Profile
+User profile includes:
+dietary restrictions
+monthly food budget
+TRAINING PROGRAM MODULES
+Build a modular program system.
+Initial programs:
+1 — Seca Barriga
+Focus:
+fat burning
+core
+cardio
+2 — Empina Bumbum
+glutes
+posterior chain
+3 — Costas em V
+back width
+4 — Ombro Cavalo
+shoulders
+Programs contain:
+modules
+video lessons
+exercise list
+progress tracking
+Programs must last between:
+30 and 90 days.
+Lessons unlock progressively.
+VIDEO PLAYER
+Build a video player system supporting:
+adaptive streaming
+lesson completion tracking
+autoplay next lesson
+resume watching
+Use Mux or Cloudflare Stream.
+GAMIFICATION SYSTEM
+Create a full gamification engine.
+Features:
+XP
+badges
+leaderboard
+daily streak
+Example achievements:
+First workout
+7 days streak
+30 workouts completed
+goal achieved
+COMMUNITY SYSTEM
+Create a social system with:
+community feed
+comments
+likes
+public profiles
+direct messages
+groups by program
+Real-time chat using WebSockets.
+AI MODULE
+Build two AI modules.
+AI Nutritionist
+User inputs:
+restrictions
+AI generates:
+personalized meal plan
+shopping list
+ingredient quantities
+estimated cost
+AI Recommendations
+Recommend:
+training programs
+lessons
+diet plans
+community content
+Based on user behavior.
+SUBSCRIPTION PLANS
+Stripe integration.
+Plans:
+Quarterly Plan
+Price: R$ 749.90
+Annual Plan
+Price: R$ 2199
+Benefits checklist:
+✔ access to all programs
+✔ AI nutrition plans
+✔ exclusive community
+✔ new programs monthly
+✔ premium support
+Large CTA button:
+PREMIUM MENTORSHIP
+Add an upsell:
+Premium Mentorship
+Application button:
+CANDIDATAR-SE
+Includes:
+personal coaching
+advanced nutrition
+priority support
+ADMIN PANEL
+Admin dashboard allows:
+create programs
+upload videos
+manage users
+view analytics
+create badges
+send push notifications
+WHITE LABEL SYSTEM
+Allow partners to create their own version of the platform.
+Customizable:
+brand colors
+custom domain
+custom programs
+Each partner can run their own platform.
+AUTOMATION ENGINE
+Create trigger based automations.
+Examples:
+If user inactive for 3 days → send push notification
+If user completes 7 workouts → unlock badge
+If program completed → recommend next program
+ANALYTICS DASHBOARD
+Admin analytics panel showing:
+Retention
+Churn
+Engagement
+Daily active users
+MOBILE READY API
+Prepare the backend for mobile apps.
+Compatible with:
+PERFORMANCE REQUIREMENTS
+System must support:
+100k concurrent users
+Implement:
+Redis caching
+CDN
+optimized queries
+horizontal scaling
+MAIN PAGES
+Landing Page
+Login
+Signup
+Dashboard
+Video Player
+Community
+Nutrition
+Profile
+Admin Panel
+DEPLOYMENT
+Configure CI/CD pipeline.
+GitHub
+Auto deploy:
+Frontend → Vercel
+Backend → Render
+Commands:
+npm install
+npm run build
+npm run deploy
+FINAL OUTPUT
+Generate:
+complete folder structure
+Prisma schema
+API routes
+React components
+UI components
+documentation
+deployment guide
+Ensure code quality, scalability, and clean architecture.
+The system should be designed as a scalable SaaS platform ready for rapid growth.
+usuário cria perfil
+2️⃣ escolhe:
+•	casa ou academia
+•	dias de treino
+•	objetivo
+3️⃣ IA gera:
+•	treino completo
+•	periodização
+•	plano alimentar
+•	lista de compras
+________________________________________
+EXEMPLO DE INPUT DO USUÁRIO
+{
+ "age": 29,
+ "weight": 82,
+ "height": 178,
+ "goal": "hypertrophy",
+ "experience_level": "intermediate",
+ "training_location": "gym",
+ "days_per_week": 5,
+ "session_duration": 60,
+ "food_budget": "medium"
+}
+O QUE A IA RETORNA
+Ela gera algo como:
+•	treino push pull legs
+•	12 semanas
+•	progressão de carga
+Tudo automaticamente.
+DIFERENCIAL GIGANTE PARA O SEU SAAS
+Isso transforma sua plataforma em:
+Personal trainer + nutricionista + coach automático.
+Poucos apps fazem isso bem.
+SE QUISER, POSSO TAMBÉM GERAR
+Algo ainda mais poderoso para sua plataforma:
+🔥 AGENTES MULTI-IA
+Um sistema com 5 agentes especializados:
+1️⃣ AI Personal Trainer
+2️⃣ AI Nutritionist
+3️⃣ AI Recovery Coach
+4️⃣ AI Motivation Coach
+5️⃣ AI Progress Analyst
+Isso cria uma arquitetura de IA estilo startup de US$100M+ dentro do seu SaaS.
+Se quiser, eu gero essa arquitetura completa também.
+gere isso, o que voce esta pensando em fazer tambem e o que ainda nao pensou, gere um completasso
+Vou montar um PROMPT MASTER (13/10) para você usar no Jules que cria uma arquitetura completa de agentes de IA dentro do seu SaaS fitness.
+Isso vai muito além de um simples gerador de treinos.
+Ele cria um ECOSSISTEMA DE AGENTES ESPECIALISTAS, algo parecido com o que empresas como Freeletics, Fitbod e Noom fazem — mas mais avançado.
+A ideia é transformar sua plataforma em:
+uma central de transformação física automatizada por IA.
+reinos personalizados
+treinos para casa ou academia
+protocolos de hipertrofia, força, resistência e emagrecimento
+periodização completa
+progressão automática
+plano alimentar
+monitoramento e ajustes
+You are an elite AI Personal Trainer and AI Nutrition Coach. 
+Your mission is to generate highly personalized training and nutrition protocols based on sports science, hypertrophy research, and professional bodybuilding methodologies. 
+Your training philosophy combines: 
+• High Intensity Training principles inspired by Dorian Yates 
+• Structured progression and biomechanics focus inspired by Fabrício Pacholok 
+• Modern evidence-based strength and conditioning science 
+Your goal is to maximize: 
+• muscle hypertrophy 
+• strength development 
+• fat loss 
+• physical conditioning 
+• training adherence 
+• long-term progression 
+You must generate COMPLETE TRAINING PROTOCOLS and NUTRITION PLANS. 
+The protocols must adapt to the user profile and environment. 
+-------------------------------- 
+INPUT DATA 
+The user will provide: 
+age 
+weight 
+height 
+training_goal 
+experience_level 
+Possible goals: 
+hypertrophy 
+fat_loss 
+strength 
+conditioning 
+Experience levels: 
+beginner 
+intermediate 
+advanced 
+User environment: 
+home 
+gym 
+User weekly availability: 
+3 
+4 
+5 
+6 days 
+Diet constraints: 
+budget 
+food restrictions 
+allergies 
+STEP 1 — DEFINE TRAINING OBJECTIVES 
+Clearly define the user's main goal: 
+Examples: 
+• hypertrophy 
+• recomposition 
+• endurance 
+• strength 
+Explain the training focus. 
+STEP 2 — TRAINING PERIODIZATION 
+Design a structured program. 
+Divide training into phases: 
+Adaptation Phase 
+Hypertrophy Phase 
+Strength Phase 
+Deload Phase 
+Define: 
+training volume 
+intensity 
+recovery strategy 
+STEP 3 — TRAINING SPLIT 
+Generate a weekly schedule. 
+3 days 
+Full Body 
+4 days 
+Upper / Lower 
+5 days 
+Push Pull Legs + accessories 
+Advanced bodybuilding split 
+STEP 4 — EXERCISE SELECTION 
+Select exercises according to environment. 
+GYM: 
+compound lifts 
+machines 
+cables 
+free weights 
+HOME: 
+bodyweight 
+bands 
+dumbbells 
+Include: 
+multi-joint exercises 
+isolation exercises 
+Example: 
+Squat 
+Bench Press 
+Deadlift 
+Pull Ups 
+Rows 
+Shoulder Press 
+Leg Curl 
+Biceps Curl 
+Triceps Extensions 
+STEP 5 — TRAINING VARIABLES 
+For each exercise provide: 
+sets 
+reps 
+rest time 
+tempo 
+load recommendation 
+Barbell Squat 
+4 sets 
+6-8 reps 
+90 seconds rest 
+tempo 2-1-2 
+STEP 6 — PROGRESSION MODEL 
+Define progressive overload strategy. 
+increase weight 
+increase reps 
+increase volume 
+Use: 
+double progression model 
+6–8 reps range 
+once user reaches 8 reps → increase load. 
+STEP 7 — RECOVERY PROTOCOL 
+sleep recommendations 
+deload weeks 
+active recovery 
+STEP 8 — INJURY PREVENTION 
+warm-up protocol 
+mobility 
+joint preparation 
+STEP 9 — CARDIO STRATEGY 
+If fat loss goal: 
+include HIIT 
+LISS cardio 
+STEP 10 — NUTRITION PLAN 
+Generate personalized nutrition plan. 
+User inputs: 
+goal 
+Calculate: 
+daily calories 
+protein intake 
+carbohydrates 
+fats 
+Protein 
+2g per kg body weight 
+STEP 11 — MEAL PLAN 
+Generate simple meals. 
+Breakfast 
+Lunch 
+Dinner 
+Snacks 
+Meals must consider: 
+local foods 
+simplicity 
+STEP 12 — SHOPPING LIST 
+Generate: 
+ingredients 
+quantities 
+estimated cost 
+STEP 13 — PROGRESS TRACKING 
+Recommend tracking: 
+body measurements 
+photos 
+STEP 14 — ADAPTATION 
+Every 2–4 weeks adjust: 
+training load 
+volume 
+diet 
+OUTPUT FORMAT 
+Return the output structured in sections. 
+1 Training Objective 
+2 Training Split 
+3 Weekly Training Plan 
+4 Exercise Details 
+5 Progression Strategy 
+6 Recovery Strategy 
+7 Nutrition Plan 
+8 Meal Plan 
+9 Shopping List 
+10 Progress Tracking Recommendations 
+The response must be clear, structured, and practical for real-world use.
+Usuário responde:
+nível
+dias disponíveis
+academia ou casa
+orçamento alimentação
+A IA gera automaticamente:
+treino completo
+periodização
+progressão
+lista de compras
+You are an elite AI Fitness Architect that combines the expertise of: 
+• a professional bodybuilding coach 
+• a strength and conditioning specialist 
+• a sports nutritionist 
+• a rehabilitation and injury prevention expert 
+Your methodology integrates principles from: 
+• High Intensity Training inspired by Dorian Yates 
+• Structured hypertrophy progression inspired by Fabrício Pacholok 
+• Modern sports science research 
+• Evidence-based strength training 
+Your mission is to generate and continuously adapt: 
+• training programs 
+• nutrition plans 
+• progression systems 
+• recovery protocols 
+All programs must be personalized and optimized for the user profile. 
+The AI must act as a fully autonomous digital coach. 
+--- 
+USER INPUT DATA 
+The platform will provide the following user data: 
+gender 
+body_fat_percentage (optional) 
+training_location 
+days_per_week 
+session_duration 
+injuries_or_limitations 
+food_budget 
+dietary_restrictions 
+available_equipment 
+• fat_loss 
+• body_recomposition 
+• conditioning 
+Possible locations: 
+• home 
+• gym 
+• beginner 
+• intermediate 
+• advanced 
+STEP 1 — BODY ANALYSIS 
+Analyze the user's physical profile. 
+Estimate: 
+• caloric needs 
+• training capacity 
+• recovery needs 
+• muscular priorities 
+Define the user's primary objective. 
+STEP 2 — PROGRAM DESIGN 
+Generate a full training program with periodization. 
+Program duration: 
+8 to 12 weeks. 
+Define phases: 
+1 Adaptation Phase 
+2 Hypertrophy Phase 
+3 Strength Phase 
+4 Deload Phase 
+Specify for each phase: 
+load progression 
+recovery strategies 
+Generate the weekly structure. 
+3 days → full body 
+4 days → upper lower 
+5 days → push pull legs 
+6 days → advanced bodybuilding split 
+Ensure proper recovery between muscle groups. 
+Choose exercises based on environment. 
+barbell 
+minimal equipment 
+Ensure combination of: 
+compound movements 
+core stability 
+STEP 5 — EXERCISE VARIABLES 
+For each exercise specify: 
+repetitions 
+rest interval 
+intensity recommendation 
+6–8 reps 
+STEP 6 — PROGRESSIVE OVERLOAD 
+Apply progressive overload models. 
+Options: 
+double progression 
+volume progression 
+Rules: 
+if user reaches upper rep range → increase weight. 
+STEP 7 — CARDIO STRATEGY 
+HIIT sessions 
+LISS sessions 
+Adjust frequency based on recovery. 
+STEP 8 — RECOVERY STRATEGY 
+sleep optimization 
+mobility routines 
+stretching 
+STEP 9 — INJURY PREVENTION 
+warm up protocol 
+correct exercise technique recommendations 
+Generate daily nutrition targets. 
+fat intake 
+Guidelines: 
+1.8–2.2 g per kg 
+Generate practical meals. 
+Structure: 
+breakfast 
+lunch 
+dinner 
+snacks 
+Meals must respect: 
+dietary restrictions 
+Generate a grocery list. 
+body weight 
+strength progression 
+measurements 
+progress photos 
+STEP 14 — ADAPTIVE AI COACH 
+The AI must adjust the plan based on progress. 
+If strength increases slowly → adjust volume. 
+If weight loss stalls → adjust calories. 
+If user misses workouts → simplify routine. 
+STEP 15 — WEEKLY REPORT 
+Generate weekly feedback: 
+training adherence 
+body composition changes 
+Provide recommendations. 
+STEP 16 — AUTOMATED MOTIVATION 
+Provide motivational feedback. 
+"Great consistency this week." 
+"Try to increase squat weight next session." 
+Return the output structured in the following sections: 
+1 User Analysis 
+2 Training Objective 
+3 Weekly Training Split 
+4 Full Training Program 
+5 Exercise Details 
+6 Progression Strategy 
+7 Cardio Strategy 
+8 Recovery Protocol 
+9 Nutrition Plan 
+10 Meal Plan 
+11 Grocery List 
+12 Progress Tracking 
+13 AI Coach Recommendations 
+The output must be structured, practical, and easy to implement inside a fitness platform. 
+PROMPT MASTER — ARQUITETURA COMPLETA DE IA FITNESS (13/10)
+Use isso como PROMPT PRINCIPAL no Jules / agente de código.
+Escrita
+You are a world-class AI architect, sports scientist, software engineer, and product strategist.
+Your task is to design and generate an advanced AI-powered fitness SaaS platform that combines training intelligence, nutrition science, behavioral psychology, and gamification.
+The platform must create a fully autonomous digital coaching ecosystem capable of guiding millions of users toward their physical transformation goals.
+The AI system must operate as a multi-agent architecture.
+Each agent must have a specialized role.
+The system must generate:
+• personalized workouts
+• nutrition plans
+• recovery strategies
+• behavioral coaching
+• progress analysis
+• adaptive training adjustments
+The platform must be scalable and capable of supporting hundreds of thousands of users simultaneously.
+CORE AI AGENT SYSTEM
+The platform must include the following AI agents.
+1 — AI PERSONAL TRAINER
+Responsibilities:
+Generate training protocols for:
+• hypertrophy
+• fat loss
+• strength
+• conditioning
+Support both environments:
+• home workouts
+• gym workouts
+Users must select:
+training level
+training days
+available equipment
+Training protocols must include:
+training objectives
+exercise selection
+sets
+reps
+rest intervals
+tempo
+intensity
+progression model
+Training methodologies must combine:
+• high intensity training principles
+• progressive overload
+• periodization
+Programs must last:
+8–12 weeks.
+2 — AI NUTRITIONIST
+Generate personalized diet plans.
+AI must calculate:
+daily calories
+protein intake
+carbohydrates
+fats
+meal plan
+estimated grocery cost
+3 — AI PROGRESS ANALYST
+Continuously monitor user data.
+Track:
+workouts completed
+strength progression
+body weight
+measurements
+activity level
+Detect:
+plateaus
+training inconsistencies
+fat loss stagnation
+Provide adjustments to:
+training volume
+diet calories
+4 — AI RECOVERY COACH
+Generate recovery protocols.
+Include:
+sleep recommendations
+mobility routines
+stretching
+deload weeks
+stress management
+5 — AI MOTIVATION COACH
+Provide psychological support and engagement.
+daily motivation
+milestone celebrations
+habit reminders
+behavior reinforcement
+6 — AI EXERCISE LIBRARY AGENT
+Generate and manage a complete exercise database.
+Each exercise must include:
+muscle groups
+equipment
+video demonstration
+execution instructions
+common mistakes
+7 — AI PROGRAM GENERATOR
+Generate full training programs dynamically.
+Programs include:
+weekly progression
+exercise rotation
+volume adjustments
+8 — AI COMMUNITY MODERATOR
+Assist in managing community spaces.
+Functions:
+detect toxic behavior
+promote engagement
+suggest discussion topics
+9 — AI CONTENT GENERATOR
+Generate educational content.
+training tips
+nutrition guidance
+injury prevention
+fitness education
+USER PROFILE SYSTEM
+Each user profile must store:
+body fat percentage
+training experience
+training location
+equipment available
+budget for food
+injuries
+TRAINING PROGRAM STRUCTURE
+Programs must include phases:
+1 Adaptation
+2 Hypertrophy
+3 Strength
+4 Deload
+Training variables must include:
+ENVIRONMENT ADAPTATION
+Programs must adapt to:
+HOME
+bodyweight
+bands
+dumbbells
+GYM
+machines
+barbells
+cables
+free weights
+TRAINING SPLIT OPTIONS
+3 days → full body
+4 days → upper lower
+5 days → push pull legs
+6 days → bodybuilding split
+CARDIO MODULE
+Include cardio when goal is fat loss.
+Options:
+HIIT
+LISS
+NUTRITION SYSTEM
+Generate meal plans based on:
+Meals must be simple and practical.
+GROCERY GENERATOR
+Create a full shopping list.
+ingredients
+quantities
+Implement a complete gamification engine.
+leaderboards
+daily streaks
+achievements
+COMMUNITY FEATURES
+Create a social platform including:
+direct messaging
+Create trigger-based automation.
+If user inactive for 3 days → send notification.
+If user completes 7 workouts → unlock badge.
+If program completed → recommend new program.
+SCALABILITY REQUIREMENTS
+100k+ concurrent users.
+caching
+database optimization
+OUTPUT REQUIREMENTS
+• full AI agent architecture
+• system workflows
+• backend logic
+• API endpoints
+• database structure
+• AI prompt templates
+• documentation
+O QUE ESSE PROMPT FAZ (VISÃO DE PRODUTO)
+Ele faz o sistema gerar uma arquitetura com múltiplas IAs:
+AI PERSONAL TRAINER
+AI NUTRITIONIST
+AI RECOVERY COACH
+AI PROGRESS ANALYST
+AI MOTIVATION COACH
+AI PROGRAM GENERATOR
+AI COMMUNITY MODERATOR
+AI CONTENT CREATOR
+Isso cria algo muito mais avançado que um app simples.
+ARQUITETURA DE IA (IDEAL)
+Dentro do backend:
+services/ai
+trainer-agent
+nutrition-agent
+progress-agent
+recovery-agent
+motivation-agent
+program-agent
+community-agent
+content-agent
+Cada um com:
+controller
+service
+prompt
+logic
+FLUXO DO USUÁRIO NO APP
+Usuário entra.
+Responde:
+dias de treino
+casa ou academia
+orçamento
+O sistema gera:
+treino
+Depois acompanha progresso.
+O QUE VOCÊ AINDA NÃO PENSOU (MAS É MUITO PODEROSO)
+1️⃣ IA ANALISANDO FOTO DO CORPO
+Usuário envia foto.
+IA detecta:
+•	gordura corporal
+•	simetria muscular
+•	pontos fracos
+2️⃣ IA ANALISANDO TREINO
+Se usuário falha:
+IA reduz volume.
+Se evolui:
+IA aumenta carga.
+3️⃣ SISTEMA DE DESAFIOS
+Desafio 30 dias
+Desafio Seca Barriga
+Desafio Glúteo
+Gamificado.
+4️⃣ SISTEMA DE AFILIADOS
+Usuários viram promotores.
+Comissão automática.
+5️⃣ SISTEMA DE WHITE LABEL
+Treinadores criam sua própria plataforma fitness.
+Você cobra mensalidade.
+VISÃO FINAL
+Isso cria uma plataforma tipo:
+Freeletics
++
+MyFitnessPal
+Trainerize
+Strava
+em um único SaaS.
+💡 Se quiser, posso te entregar também (absurdamente poderoso):
+•	ARQUITETURA DE BANCO COMPLETA (Prisma 200+ campos)
+•	estrutura real de código para NestJS
+•	arquitetura de microserviços pronta
+•	arquitetura para suportar 1 milhão de usuários
+•	prompt para o Jules gerar todo o código automaticamente
+Isso levaria sua plataforma para nível startup global.
+gere : O QUE VOCÊ AINDA NÃO PENSOU (MAS É MUITO PODEROSO) 1️⃣ IA ANALISANDO FOTO DO CORPO Usuário envia foto. IA detecta: gordura corporal simetria muscular pontos fracos 2️⃣ IA ANALISANDO TREINO Se usuário falha: IA reduz volume. Se evolui: IA aumenta carga. 3️⃣ SISTEMA DE DESAFIOS Exemplo: Desafio 30 dias Desafio Seca Barriga Desafio Glúteo Gamificado. 4️⃣ SISTEMA DE AFILIADOS Usuários viram promotores. Comissão automática. 5️⃣ SISTEMA DE WHITE LABEL Treinadores criam sua própria plataforma fitness. Você cobra mensalidade. e tambem facilite o maximo possivel na hroa de colocar vercel stripe e neon juntos, pra subir o mais rapido possivel, jules tem que fazewr praticamente tudo
+Vou te entregar uma expansão completa do seu SaaS com 5 sistemas extremamente poderosos que normalmente só aparecem em apps fitness de nível global.
+Além disso vou incluir como integrar rápido Vercel + Stripe + Neon para o Jules automatizar quase tudo.
+Vou dividir em:
+1️⃣ IA análise de corpo por foto
+2️⃣ IA análise de treino e adaptação automática
+3️⃣ Sistema de desafios gamificado
+4️⃣ Sistema de afiliados
+5️⃣ Sistema white-label
+6️⃣ Deploy ultra rápido (Vercel + Stripe + Neon)
+7️⃣ Prompt para o Jules gerar tudo automaticamente
+Isso é extremamente poderoso para retenção.
+Apps modernos já fazem isso usando computer vision para estimar gordura corporal, medidas e simetria a partir de fotos do usuário. 
+Alguns sistemas conseguem criar até modelos 3D do corpo usando fotos do celular. 
+A IA analisa:
+•	percentual de gordura
+•	proporções
+•	massa muscular
+•	simetria
+•	evolução ao longo do tempo
+Alguns algoritmos analisam até 18 grupos musculares e proporções corporais. 
+Fluxo no app
+Usuário envia:
+foto frontal
+foto lateral
+foto costas
+Sistema gera:
+body_fat_estimate
+muscle_symmetry
+weak_muscle_groups
+body_shape
+progress_tracking
+Arquitetura
+services/ai-body-analysis
+model
+Exemplo API
+POST /api/body/analyze
+input:
+photo_front
+photo_side
+photo_back
+output:
+ bodyFat: 18.2,
+ symmetryScore: 82,
+ weakMuscles: ["glutes","rear_delts"],
+ recommendations: [...]
+IA gera recomendações
+Pontos fracos detectados:
+glúteos
+posterior de ombro
+Recomendação:
+Adicionar exercícios:
+hip thrust
+face pull
+romanian deadlift
+2️⃣ IA ANALISANDO TREINO AUTOMATICAMENTE
+Esse sistema é muito raro em apps fitness.
+Ele faz adaptação automática de treino.
+Dados analisados
+treinos realizados
+carga usada
+repetições
+fadiga
+dias sem treinar
+peso corporal
+Regras
+Se usuário falhar repetidamente:
+reduzir volume
+reduzir carga
+aumentar descanso
+Se usuário evoluir:
+aumentar carga
+aumentar reps
+inserir técnicas avançadas
+Exemplo
+Usuário faz supino:
+Semana 1
+60kg x 8
+Semana 2
+60kg x 10
+Semana 3
+60kg x 12
+IA ajusta:
+nova carga: 65kg
+reps: 6-8
+services/ai-progress
+progress-analyzer
+training-adjuster
+adaptation-engine
+3️⃣ SISTEMA DE DESAFIOS (VIRAL)
+Isso aumenta muito retenção e conversão.
+Desafios sugeridos
+Desafio 30 dias transformação
+30 treinos
+30 dias
+ranking
+Desafio seca barriga
+21 dias
+Desafio glúteo
+28 dias
+foco glúteo
+Estrutura banco
+Challenges
+reward
+Gamificação
+Usuários ganham:
+Ranking
+Top 100 participantes
+Esse sistema pode multiplicar vendas.
+Fluxo
+Usuário recebe:
+link afiliado
+app.com/?ref=1234
+Comissão
+30% por venda
+Affiliates
+commission_rate
+earnings
+Referrals
+affiliateId
+purchaseId
+commission
+Dashboard afiliado
+Mostra:
+cliques
+vendas
+comissão
+5️⃣ SISTEMA WHITE LABEL
+Esse é um dos maiores geradores de receita.
+Treinadores criam sua própria plataforma.
+Personal trainer cria:
+app.joaotreinador.com
+Pode customizar
+Banco
+Tenants
+domain
+theme
+Cada tenant tem
+usuarios próprios
+comunidade própria
+6️⃣ DEPLOY ULTRA RÁPIDO
+Objetivo:
+Jules fazer quase tudo automaticamente.
+Infraestrutura ideal
+Vercel
+Render
+Neon PostgreSQL
+PASSO 1 — Neon
+Criar banco:
+https://neon.tech
+Copiar:
+DATABASE_URL
+PASSO 2 — Stripe
+Criar:
+Product
+Price
+Webhook
+Webhook:
+/api/webhooks/stripe
+PASSO 3 — Vercel
+Importar repo GitHub.
+Adicionar env:
+STRIPE_SECRET_KEY
+STRIPE_WEBHOOK_SECRET
+OPENAI_API_KEY
+NEXTAUTH_SECRET
+npx prisma db push
+Deploy
+7️⃣ PROMPT PARA O JULES AUTOMATIZAR TUDO
+Use isso no Jules.
+You are a senior AI software architect.
+Generate a complete scalable SaaS fitness platform with advanced AI features.
+The system must include:
+AI body photo analysis
+AI training adaptation
+AI nutrition planning
+AI progress monitoring
+Implement additional systems:
+1 Body photo analysis using computer vision
+Detect body fat percentage, symmetry and weak muscles.
+2 Training analysis system
+Automatically adjust training volume and load.
+3 Gamified challenges
+30 day challenge
+fat loss challenge
+glute challenge
+Include leaderboard and rewards.
+4 Affiliate system
+Users receive referral links.
+Track clicks and commissions.
+5 White label system
+Allow trainers to launch their own platform.
+colors
+Use this stack:
+Next.js 14
+Tailwind
+NestJS
+Deployment must be optimized for:
+Neon database
+Stripe payments
+Automatically generate:
+folder structure
+database schema
+AI prompts
+deployment scripts
+Ensure the system can scale to 100k concurrent users.
+UMA IDEIA AINDA MAIS PODEROSA (QUASE NINGUÉM FAZ)
+IA que corrige execução de exercício usando câmera.
+Sistema detecta postura usando pose estimation para corrigir exercícios automaticamente. 
+IA detecta squat
+erro:
+joelho entrando
+feedback:
+empurre joelho para fora
+SE QUISER
+Posso também te entregar a arquitetura absurda final:
+🔥 SCHEMA PRISMA com 60+ tabelas
+🔥 arquitetura para 1 milhão de usuários
+🔥 prompt para Jules gerar 50 mil linhas de código
+🔥 sistema viral estilo Duolingo para fitness
+Isso levaria seu projeto para nível startup global.
+gere isso tudo em um unico prompt arquitetura de microserviços real fila de jobs (BullMQ) Redis cache upload de vídeo otimizado SCHEMA PRISMA com 60+ tabelas sistema de notificações massivas growth engine automático prompt para Jules gerar 50 mil linhas de código 🔥 sistema viral estilo Duolingo para fitness Isso levaria seu projeto para nível startup global.
+A seguir está um ÚNICO PROMPT MASTER (nível extremo) para colar no Jules.
+Ele instrui o agente a gerar toda a plataforma SaaS fitness com:
+•	arquitetura real de microserviços
+•	fila de jobs com BullMQ
+•	Redis cache
+•	upload e streaming de vídeo otimizado
+•	SCHEMA Prisma com 60+ tabelas
+•	notificações massivas
+•	growth engine automático
+•	sistema viral estilo Duolingo
+•	deploy simplificado com Vercel + Stripe + Neon
+•	código suficiente para um projeto grande (dezenas de milhares de linhas)
+Use como prompt único.
+You are a world-class principal software architect and AI engineer responsible for generating a production-grade global SaaS platform.
+Your task is to generate a COMPLETE scalable fitness SaaS platform powered by AI and built using modern cloud architecture.
+The platform must be designed for rapid growth and must support hundreds of thousands of concurrent users.
+• AI coaching
+• adaptive training generation
+• challenges
+• affiliate program
+• white-label platform
+• viral growth engine
+• large scale notifications
+• automated deployment
+The final result must include tens of thousands of lines of production-ready code across multiple services.
+MANDATORY TECH STACK
+NestJS microservices
+OAuth (Google Apple)
+Cache
+Redis
+Job Queue
+BullMQ
+Cloudflare Stream or Mux
+Render or Railway (backend)
+MICROSERVICES ARCHITECTURE
+Generate a real microservices architecture.
+Services must communicate using message queues.
+Core services:
+auth-service
+user-service
+program-service
+training-service
+nutrition-service
+ai-service
+video-service
+community-service
+gamification-service
+challenge-service
+affiliate-service
+white-label-service
+notification-service
+analytics-service
+growth-engine-service
+Generate a scalable monorepo:
+web
+mobile-api
+users
+programs
+training
+nutrition
+video
+community
+gamification
+challenges
+affiliates
+notifications
+analytics
+growth-engine
+ai
+ui
+database
+config
+utils
+REDIS CACHE
+Implement Redis caching layer.
+Cache:
+user sessions
+program data
+popular workouts
+AI responses
+BULLMQ JOB QUEUE
+Implement background processing using BullMQ.
+Queues:
+video-processing
+ai-training-generation
+notification-dispatch
+email-sending
+analytics-aggregation
+growth-automation
+Example job:
+Generate workout plan
+Send push notifications
+Process uploaded video
+VIDEO SYSTEM
+Create a scalable video delivery system.
+video upload
+video transcoding
+Use Cloudflare Stream or Mux.
+AI SYSTEM
+Create multiple AI agents.
+Agents:
+AI Personal Trainer
+AI Progress Analyst
+AI Recovery Coach
+AI Motivation Coach
+AI Program Generator
+AI Content Generator
+Each agent must have:
+prompt templates
+logic layer
+API endpoints
+BODY ANALYSIS AI
+Implement body analysis from user photos.
+Inputs:
+front photo
+side photo
+back photo
+Outputs:
+estimated body fat
+muscle symmetry score
+weak muscle groups
+recommended training focus
+ADAPTIVE TRAINING SYSTEM
+Analyze user performance.
+If user fails workouts:
+reduce volume
+increase recovery
+If user progresses quickly:
+increase load
+increase reps
+GAMIFICATION ENGINE
+Create Duolingo-style gamification.
+XP system
+levels
+milestones
+first workout
+7 day streak
+challenge completed
+CHALLENGE SYSTEM
+Implement challenges.
+30 Day Transformation
+21 Day Fat Loss
+Glute Builder Challenge
+Challenges include:
+rewards
+COMMUNITY PLATFORM
+Create a full social layer.
+groups by training program
+AFFILIATE SYSTEM
+Users can become affiliates.
+referral links
+commission tracking
+affiliate dashboard
+Database tables:
+Commissions
+Allow coaches to create their own branded platform.
+Configurable:
+Each tenant runs isolated data.
+GROWTH ENGINE
+Create automated growth system.
+Triggers:
+user inactive for 3 days → send notification
+user completes challenge → share result
+invite friends → reward XP
+NOTIFICATION SYSTEM
+Create a massive notification system.
+Channels:
+push notifications
+in-app messages
+Queue notifications using BullMQ.
+ANALYTICS SYSTEM
+Daily Active Users
+PRISMA DATABASE SCHEMA
+Generate a Prisma schema with at least 60 tables.
+Core tables include:
+Profiles
+Exercises
+Workouts
+WorkoutSessions
+WorkoutLogs
+BodyMeasurements
+Photos
+BodyAnalysis
+Meals
+Ingredients
+FoodLogs
+ChallengeParticipants
+Leaderboards
+Posts
+Messages
+TenantUsers
+TenantPrograms
+Invoices
+WebhookEvents
+UserAchievements
+XPLogs
+Levels
+Streaks
+PushTokens
+Devices
+AnalyticsEvents
+UserActivity
+GrowthTriggers
+GrowthEvents
+Emails
+EmailTemplates
+Jobs
+Queues
+SystemLogs
+FeatureFlags
+API DESIGN
+Generate REST APIs for all services.
+Example:
+POST /auth/login
+GET /programs
+POST /training/generate
+POST /nutrition/plan
+POST /community/post
+POST /affiliate/register
+FRONTEND APPLICATION
+Create pages:
+Optimize deployment for speed.
+Database → Neon
+Environment variables:
+REDIS_URL
+AUTOMATED DEPLOYMENT
+Configure CI/CD.
+GitHub actions must:
+install dependencies
+run Prisma migrations
+build services
+deploy automatically
+microservices code
+The system must be production-ready and scalable.
+O que esse prompt faz quando rodar no Jules
+Ele força o agente a gerar:
+•	arquitetura de microserviços
+•	infraestrutura cloud
+•	fila de jobs
+•	cache
+•	IA integrada
+•	gamificação viral
+•	60+ tabelas no banco
+•	frontend completo
+•	APIs
+•	deploy automático
+Ou seja, praticamente um SaaS fitness inteiro gerado automaticamente.
+✅ Se quiser, eu também posso te gerar uma versão ainda mais absurda (14/10) que adiciona:
+•	arquitetura preparada para 1 milhão de usuários
+•	edge functions
+•	event sourcing
+•	CQRS
+•	AI agents autônomos com orquestrador
+•	sistema de crescimento viral estilo TikTok
+Isso já entra em arquitetura de startup bilionária.
+arquitetura preparada para 1 milhão de usuários edge functions event sourcing CQRS AI agents autônomos com orquestrador
+Vou te entregar um PROMPT MASTER AINDA MAIS AVANÇADO (nível 14/10) que adiciona:
+•	arquitetura para 1 milhão+ de usuários
+•	Edge Functions
+•	Event Sourcing
+•	AI Agents autônomos
+•	Orquestrador de agentes
+•	fila distribuída
+•	Redis cluster
+•	streaming de eventos
+•	observabilidade
+•	sistema de crescimento viral
+Esse tipo de arquitetura é inspirado em padrões usados por empresas como Netflix, Uber e Shopify para escalar serviços massivos.
+A ideia é fazer o Jules gerar um SaaS fitness com arquitetura de nível global.
+PROMPT MASTER — ARQUITETURA GLOBAL (1 MILHÃO DE USUÁRIOS)
+Cole tudo abaixo no Jules.
+You are a principal distributed systems architect and AI engineer responsible for generating a global-scale SaaS platform.
+Your mission is to design and generate a highly scalable AI-powered fitness SaaS platform capable of supporting over 1 million users.
+The system must implement modern distributed architecture patterns used by large technology companies.
+ARCHITECTURE PRINCIPLES
+Use the following architecture patterns:
+Microservices architecture
+CQRS
+Event Sourcing
+Event-driven communication
+Edge computing
+AI agent orchestration
+The system must be horizontally scalable and resilient.
+TECH STACK
+PostgreSQL (Neon)
+Redis Cluster
+Queue
+Event Streaming
+Kafka or Redis Streams
+OAuth Google Apple
+Video Streaming
+Cloudflare Stream
+Cloudflare
+Render or Railway
+EDGE FUNCTIONS
+Use Edge Functions to execute lightweight logic close to the user.
+Edge responsibilities:
+authentication validation
+API caching
+A/B testing
+feature flags
+rate limiting
+analytics tracking
+Deploy edge functions via Cloudflare Workers or Vercel Edge Functions.
+MICROSERVICES
+Generate the following services:
+tenant-service
+EVENT SOURCING
+Implement event sourcing for critical business events.
+Each state change must emit an event.
+UserRegistered
+WorkoutCompleted
+ProgramStarted
+SubscriptionActivated
+ChallengeJoined
+AffiliateSaleRecorded
+Events must be stored in an event store.
+Separate read and write models.
+Command side:
+handles writes
+publishes events
+Query side:
+optimized read models
+cached responses
+EVENT BUS
+Implement an event bus for communication between services.
+Use:
+Kafka
+or Redis Streams.
+Example flow:
+WorkoutCompleted event
+XP update
+challenge progress
+AI progress analysis
+notification dispatch
+AI AGENT SYSTEM
+Create autonomous AI agents.
+AI Content Creator
+AI Community Moderator
+AI ORCHESTRATOR
+Create an AI orchestrator service.
+coordinate AI agents
+aggregate responses
+trigger agent workflows
+Example workflow:
+User completes workout
+AI Progress Analyst evaluates performance
+AI Personal Trainer adjusts training
+AI Motivation Coach sends encouragement message
+Create a viral engagement system similar to language learning apps.
+Create gamified challenges.
+Glute Builder
+Each challenge includes:
+Allow fitness coaches to create branded platforms.
+Each tenant must have isolated data.
+VIDEO PLATFORM
+Build scalable video streaming.
+transcoding
+lesson progress tracking
+CACHE STRATEGY
+Use Redis Cluster.
+popular programs
+JOB QUEUES
+Use BullMQ for background processing.
+AI generation
+email sending
+Build massive notification system.
+OBSERVABILITY
+Implement monitoring.
+structured logging
+metrics collection
+distributed tracing
+SCALABILITY
+The platform must support:
+1 million users
+100k concurrent sessions
+load balancing
+database read replicas
+DATABASE SCHEMA
+Generate a Prisma schema with over 60 tables.
+Include models for:
+subscriptions
+workouts
+growth engine
+white label tenants
+OUTPUT
+CI/CD configuration
+O QUE ESSA ARQUITETURA PERMITE
+Esse modelo suporta:
+1M+ usuários
+100k simultâneos
+multi-tenancy
+IA distribuída
+microserviços escaláveis
+COMO OS AGENTES DE IA TRABALHAM
+Fluxo real:
+user completes workout
+↓
+event: WorkoutCompleted
+event bus
+AI Trainer ajusta treino
+AI Motivation envia notificação
+O QUE ISSO CRIA NA PRÁTICA
+Sua plataforma vira algo como:
+Duolingo
+em um único SaaS fitness com IA.
+💡 Se quiser, posso também te gerar a próxima camada absurda (15/10):
+•	arquitetura de IA multi-modelo
+•	RAG para nutrição e treino
+•	memória de usuário
+•	vector database
+•	AI coach que aprende com o comportamento do usuário
+Isso é o tipo de arquitetura que startups de US$1B estão usando hoje.
+AI coach que aprende com o comportamento do usuárioRAG para nutrição e treino arquitetura de IA multi-modelo
+Vou montar agora o PROMPT MASTER FINAL (nível 15/10) que adiciona as camadas de IA mais avançadas possíveis para sua plataforma fitness.
+Essas três tecnologias que você pediu são exatamente o que empresas de IA modernas estão usando:
+•	AI Coach com memória e aprendizado de comportamento
+•	RAG (Retrieval Augmented Generation) para nutrição e treino
+•	Arquitetura multi-modelo de IA
+Isso transforma seu sistema em um coach digital inteligente que evolui com o usuário.
+PROMPT MASTER — IA FITNESS AVANÇADA (15/10)
+Cole isso no Jules para gerar a arquitetura.
+You are a world-class AI systems architect and machine learning engineer.
+Your task is to design and generate an advanced AI-powered fitness SaaS platform that includes an intelligent AI coaching system capable of learning from user behavior.
+The system must implement:
+• AI behavioral learning
+• Retrieval Augmented Generation (RAG)
+• multi-model AI architecture
+• persistent memory for each user
+• adaptive training intelligence
+• adaptive nutrition intelligence
+The AI must act as a fully autonomous digital fitness coach.
+AI SYSTEM OVERVIEW
+The platform must contain a distributed AI architecture composed of multiple specialized agents coordinated by an AI orchestrator.
+Agents include:
+AI COACH WITH BEHAVIORAL LEARNING
+The system must learn from user behavior over time.
+workout adherence
+training frequency
+exercise performance
+weight change
+body measurements
+diet compliance
+activity levels
+The AI must adapt coaching based on behavior.
+If the user frequently skips workouts → reduce program complexity.
+If the user progresses quickly → increase intensity.
+If the user plateaus → change training stimulus.
+USER MEMORY SYSTEM
+Create persistent AI memory for each user.
+Memory must include:
+training history
+diet history
+progress photos
+habit patterns
+Use a vector database to store user context.
+RAG SYSTEM (Retrieval Augmented Generation)
+Implement a RAG architecture for knowledge retrieval.
+The AI must retrieve relevant information from:
+exercise science database
+nutrition guidelines
+training protocols
+injury prevention knowledge
+When generating recommendations, the AI must combine:
+user context
+retrieved knowledge
+model reasoning
+KNOWLEDGE BASE CONTENT
+Include documents related to:
+strength training
+hypertrophy science
+nutrition science
+sports physiology
+recovery methods
+Embed documents using vector embeddings.
+Store them in a vector database.
+VECTOR DATABASE
+Implement a vector database layer.
+Pinecone
+Weaviate
+Supabase Vector
+or PostgreSQL pgvector.
+Store:
+exercise knowledge
+nutrition knowledge
+user memory embeddings
+MULTI MODEL AI ARCHITECTURE
+Implement multiple AI models.
+LLM model for reasoning and planning.
+Computer vision model for body analysis.
+Recommendation model for exercise suggestions.
+Create an AI orchestration service.
+route tasks to appropriate model
+aggregate outputs
+User completes workout.
+Event triggers AI orchestrator.
+AI Progress Analyst evaluates data.
+AI Personal Trainer updates next workout.
+AI Motivation Coach generates encouragement message.
+Use computer vision to analyze body photos.
+body fat estimate
+muscle symmetry
+posture
+Use results to adapt training.
+ADAPTIVE TRAINING ENGINE
+Training must evolve dynamically.
+workout logs
+body composition
+user adherence
+adjusted training volume
+intensity changes
+ADAPTIVE NUTRITION ENGINE
+Adjust diet based on:
+goal progress
+food adherence
+AI must modify:
+macro distribution
+meal suggestions
+PERSONALIZED RECOMMENDATIONS
+Generate recommendations such as:
+new workouts
+recovery tips
+nutrition improvements
+challenge participation
+FEEDBACK LOOP
+The AI must create a continuous learning loop.
+Collect data
+Analyze performance
+Adjust recommendations
+Monitor results
+EXAMPLE USER FLOW
+User logs workout.
+Workout data stored.
+Event published: WorkoutCompleted.
+AI orchestrator receives event.
+AI Progress Analyst evaluates performance.
+AI Trainer updates next workout.
+AI Motivation Coach sends message.
+AI architecture must support millions of requests.
+model batching
+asynchronous processing
+job queues
+AI architecture diagrams
+agent definitions
+RAG pipeline
+vector database schema
+AI prompt templates
+microservice integration
+COMO FUNCIONA O RAG NO SEU APP
+Usuário pergunta:
+“Qual o melhor treino para glúteo?”
+Fluxo:
+pergunta do usuário
+RAG busca na base de conhecimento
+recupera protocolos de treino
+LLM gera resposta personalizada
+MEMÓRIA DO USUÁRIO
+A IA cria um perfil evolutivo.
+ "userId": "123",
+ "trainingFrequency": "4x/week",
+ "favoriteExercises": ["hip thrust","squat"],
+ "weakMuscles": ["rear delts"],
+ "complianceScore": 0.82
+EXEMPLO DE ADAPTAÇÃO AUTOMÁTICA
+Usuário não treina por 5 dias.
+AI coach decide:
+criar treino mais curto
+enviar notificação motivacional
+ARQUITETURA FINAL DA IA
+AI Orchestrator
+│
+├── Trainer Agent
+├── Nutrition Agent
+├── Progress Agent
+├── Recovery Agent
+├── Motivation Agent
+├── RAG Engine
+└── Vector Database
+DIFERENCIAL GIGANTE
+Seu sistema vira:
+um coach digital que aprende com o usuário.
+Isso é o que apps como Freeletics e MyFitnessPal começaram a fazer, mas de forma menos avançada.
+O QUE VOCÊ TERÁ NO FINAL
+Um SaaS que combina:
+•	AI coach adaptativo
+•	geração automática de treinos
+•	nutrição personalizada
+•	aprendizado de comportamento
+•	base científica com RAG
+Ou seja:
+um treinador inteligente dentro do app.
+💡 Se quiser, posso também te gerar a ARQUITETURA FINAL ABSURDA (16/10) que inclui:
+•	AI coach conversacional estilo ChatGPT
+•	IA que analisa vídeos de exercícios
+•	IA que cria novos programas automaticamente
+•	motor de recomendação estilo Netflix
+•	growth engine viral automático
+Isso colocaria sua plataforma no nível de startup fitness global.
+I coach conversacional estilo ChatGPT IA que analisa vídeos de exercícios IA que cria novos programas automaticamente e implemente 50+ agentes direcionados ao ramo fitness 
+Abaixo está um PROMPT MASTER ÚNICO (nível 16/10) para você colar no Jules.
+Ele instrui o agente a gerar uma plataforma SaaS fitness global com:
+•	AI Coach conversacional estilo ChatGPT
+•	IA que analisa vídeos de exercícios (pose estimation)
+•	50+ agentes especializados em fitness
+•	arquitetura de microserviços + CQRS + Event Sourcing
+•	multi-modelo de IA
+•	orquestrador de agentes
+•	fila BullMQ + Redis
+•	infra pronta para Vercel + Neon + Stripe
+O objetivo é fazer o Jules gerar um sistema enorme (dezenas de milhares de linhas) já com arquitetura preparada para escala.
+PROMPT MASTER FINAL — FITNESS AI ECOSYSTEM (16/10)
+Cole todo o conteúdo abaixo no Jules.
+You are a principal AI architect, distributed systems engineer, and sports science expert.
+Your task is to generate a complete global-scale AI fitness SaaS platform.
+The platform must include a fully autonomous AI coaching ecosystem composed of over 50 specialized AI agents focused on fitness, health, and behavioral change.
+The system must be capable of serving over 1 million users.
+ARCHITECTURE REQUIREMENTS
+Event-driven architecture
+Event sourcing
+The system must be horizontally scalable.
+Vector Database
+pgvector or Pinecone
+Redis cluster
+Video
+AI COACH CONVERSATIONAL SYSTEM
+Implement a conversational AI coach similar to ChatGPT.
+Capabilities:
+natural conversation
+training advice
+nutrition advice
+motivation
+progress analysis
+The AI coach must access:
+user memory
+nutrition logs
+progress metrics
+VIDEO ANALYSIS AI
+Implement computer vision for exercise analysis.
+Users upload workout videos.
+AI detects:
+exercise type
+range of motion
+joint angles
+form errors
+Example feedback:
+"Knees collapsing during squat"
+"Increase hip hinge in deadlift"
+AUTOMATIC PROGRAM GENERATION
+Implement AI that generates new training programs automatically.
+user history
+Programs must include:
+periodization
+progression models
+AI AGENT ORCHESTRATOR
+Create an orchestration service that coordinates AI agents.
+task routing
+workflow management
+response aggregation
+50+ SPECIALIZED AI AGENTS
+Generate a system of specialized AI agents.
+AI Body Analysis Agent
+AI Exercise Analysis Agent
+AI Form Correction Agent
+AI Strength Progress Agent
+AI Diet Optimization Agent
+AI Meal Planner
+AI Grocery Planner
+AI Habit Coach
+AI Sleep Coach
+AI Stress Coach
+AI Injury Prevention Agent
+AI Mobility Coach
+AI Cardio Coach
+AI Fat Loss Strategist
+AI Hypertrophy Strategist
+AI Strength Coach
+AI Endurance Coach
+AI Rehabilitation Coach
+AI Posture Coach
+AI Flexibility Coach
+AI Supplement Advisor
+AI Lifestyle Coach
+AI Video Recommendation Agent
+AI Training Reminder Agent
+AI Engagement Agent
+AI Challenge Designer
+AI Affiliate Manager
+AI Growth Strategist
+AI Retention Optimizer
+AI Behavioral Analyst
+AI Habit Formation Agent
+AI Feedback Generator
+AI Support Agent
+AI Analytics Agent
+AI Marketing Assistant
+AI Email Generator
+AI Push Notification Generator
+AI Program Evaluator
+AI Workout Difficulty Analyzer
+AI Energy Level Predictor
+AI Body Composition Predictor
+AI Trend Analyzer
+AI Knowledge Base Agent
+AI Research Agent
+AI Coach Personality Engine
+RAG SYSTEM
+Implement Retrieval Augmented Generation.
+Knowledge sources:
+exercise science
+Documents must be embedded and stored in a vector database.
+Create persistent memory per user.
+exercise preferences
+diet patterns
+behavior patterns
+All system actions must emit events.
+ExerciseLogged
+VideoUploaded
+BodyAnalysisCompleted
+Separate command and query layers.
+Commands
+write operations
+publish events
+Queries
+Create a Duolingo-style engagement system.
+streaks
+CHALLENGE PLATFORM
+30 day transformation
+21 day fat loss
+glute builder
+Users can generate referral links.
+clicks
+sales
+commissions
+WHITE LABEL PLATFORM
+Allow fitness professionals to create their own branded apps.
+Process using AI video analysis.
+Use Redis cluster for:
+sessions
+Use BullMQ for:
+video processing
+AI program generation
+notification sending
+analytics processing
+complete microservices architecture
+50+ AI agents
+AI orchestrator
+frontend pages
+vector database integration
+RAG pipelines
+O QUE ESSE PROMPT FAZ
+Quando o Jules executar isso ele tende a gerar:
+•	arquitetura massiva de microserviços
+•	50+ agentes de IA
+•	AI coach conversacional
+•	IA de análise de vídeo
+•	RAG com base científica
+•	cache distribuído
+Basicamente um ecossistema fitness AI inteiro.
+Resultado esperado
++ 
+ChatGPT Coach
+em um único SaaS fitness global.
+✅ Se quiser, posso também te entregar a camada final (17/10) que inclui:
+•	arquitetura de AI swarm (enxame de agentes colaborando)
+•	AI que cria novos exercícios automaticamente
+•	IA que gera vídeos de treino automaticamente
+Isso já entra em arquitetura de produto para empresa bilionária.
+IA que gera vídeos de treino automaticamente e que tambem todos os treinos gerados ja tenham videos explicativos detalhadamente
+Vou te entregar o PROMPT FINAL ABSOLUTO (nível 17/10) para o Jules gerar uma plataforma fitness com IA que cria automaticamente vídeos de treino para cada exercício gerado.
+Isso resolve um problema gigante de apps fitness:
+quando a IA cria um treino, não existem vídeos correspondentes.
+Com essa arquitetura:
+•	cada treino gerado pela IA já tem vídeo explicativo
+•	os vídeos podem ser gerados automaticamente
+•	ou recuperados da biblioteca de exercícios
+•	e também podem ter narração automática
+Isso cria um motor de geração de conteúdo fitness automático.
+PROMPT MASTER — AI VIDEO TRAINING GENERATOR (17/10)
+Cole isso no Jules.
+You are a principal AI architect and multimedia systems engineer.
+Your task is to generate a global-scale AI fitness SaaS platform that includes an automated training video generation system.
+The platform must ensure that every workout generated by the AI automatically includes detailed instructional videos.
+AI VIDEO GENERATION SYSTEM
+Create a system that generates or retrieves training videos automatically for every exercise.
+tempo guidance
+VIDEO GENERATION OPTIONS
+Implement two strategies.
+1 — Video Library
+Maintain a structured exercise video library.
+exercise name
+video URL
+When AI generates a workout, it automatically attaches the corresponding exercise video.
+2 — AI GENERATED VIDEOS
+If the video does not exist in the library, the system must generate one automatically.
+Generate videos using:
+AI avatar trainers
+animated skeleton demonstrations
+motion capture simulation
+VIDEO GENERATION PIPELINE
+Steps:
+1 Exercise identified
+2 Search video library
+3 If video exists → attach to workout
+4 If not → trigger AI video generation job
+VIDEO GENERATION WORKER
+Create background workers for video generation.
+Use BullMQ queues.
+Queue name:
+video-generation
+Jobs:
+generate avatar video
+generate animation
+generate voice explanation
+upload to video CDN
+AI AVATAR TRAINER
+Implement AI avatar trainers capable of demonstrating exercises.
+Avatars must perform:
+squat
+bench press
+deadlift
+lunges
+rows
+shoulder press
+core exercises
+cardio exercises
+VIDEO EXPLANATION ENGINE
+Generate spoken explanations.
+Example script:
+"Keep your chest up during the squat. Lower your hips until thighs are parallel to the floor."
+Generate voice using AI text-to-speech.
+VIDEO STORAGE
+Store generated videos in:
+Cloudflare Stream or Mux.
+Metadata stored in database.
+EXERCISE VIDEO DATABASE
+Create database models:
+Exercise
+ExerciseVideo
+ExerciseInstruction
+ExerciseMistakes
+AUTOMATIC VIDEO ATTACHMENT
+When AI generates workouts:
+Attach videos automatically.
+Example workout structure:
+Workout
+Sets
+Reps
+Tempo
+Instructions
+Create advanced video player.
+autoplay next exercise
+playback speed
+mark exercise completed
+EXERCISE VIDEO ANALYSIS
+Allow users to upload their own exercise videos.
+AI analyzes:
+form
+Provide feedback.
+AI TRAINING PROGRAM GENERATOR
+When generating programs, include:
+exercise video
+text instructions
+safety notes
+VIDEO CONTENT SCALING
+The system must support thousands of exercises.
+video CDN
+lazy loading
+AI CONTENT GENERATION
+Automatically generate educational content.
+exercise tips
+muscle anatomy
+training techniques
+FINAL REQUIREMENTS
+video generation pipeline
+exercise video database
+AI avatar trainer logic
+video worker queues
+video player components
+COMO FUNCIONA NA PRÁTICA
+Quando a IA cria um treino:
+Treino gerado
+exercícios identificados
+sistema busca vídeo
+se existir → usa
+se não → gera vídeo
+EXEMPLO DE RESULTADO
+Treino criado:
+Glúteos
+Hip Thrust
+3x12
+Vídeo anexado automaticamente.
+Explicação:
+Músculos trabalhados: glúteos
+Tempo: 2-1-2
+Erro comum: arquear lombar
+New-Item master-prompt.txt -ItemType File
+notepad master-prompt.txt
+PIPELINE COMPLETO
+AI Trainer
+Workout Generator
+Exercise Engine
+Video Library
+Video Generator
+Video CDN
+TIPOS DE VÍDEO POSSÍVEIS
+1️⃣ Vídeos reais gravados
+biblioteca de exercícios.
+2️⃣ Avatar IA
+instrutor digital.
+3️⃣ Animação 3D
+esqueleto biomecânico.
+Seu app vira um sistema onde:
+•	qualquer treino gerado já tem vídeo
+•	exercícios novos ganham vídeo automático
+•	o usuário recebe explicação detalhada
+O QUE ISSO CRIA
+Nike Training Club
+Duolingo Gamification
+💡 Se quiser, posso também te entregar a arquitetura final absurda (18/10) que adiciona:
+•	IA que cria novos exercícios automaticamente
+•	IA que gera programas completos de 12 semanas
+•	AI growth engine viral
+•	AI que cria anúncios automaticamente para vender o app
+Isso já entra em arquitetura de produto para empresa fitness global.
+quero um prompt pra ele gerar apenas os comandos que aibnda nao tem em nossa plataforma da quial eu vou clonar um code, apenas, videos, exercicios, etal, sem mudar absolutamente nada a nossa estrutura
+Perfeito. O que você precisa é um prompt de “modo cirúrgico”, para o Jules NÃO alterar nada da arquitetura existente, apenas adicionar dados e conteúdos que faltam (exercícios, vídeos, instruções etc.).
+Isso é extremamente importante quando você vai clonar um repo existente e não quer que a IA quebre nada.
+Vou te entregar um PROMPT SAFE MODE (conteúdo-only).
+Ele força o agente a:
+•	❌ não alterar estrutura
+•	❌ não alterar dependências
+•	❌ não alterar arquitetura
+•	❌ não modificar microserviços
+•	❌ não modificar rotas
+E permite apenas:
+•	✅ criar exercícios
+•	✅ criar vídeos
+•	✅ criar descrições
+•	✅ popular banco de dados
+•	✅ seed de conteúdo
+PROMPT PARA JULES — MODO SAFE (SEM ALTERAR ARQUITETURA)
+Cole isso no Jules depois de clonar o código.
+You are working inside an existing production codebase.
+Your task is STRICTLY LIMITED.
+You must ONLY generate missing fitness content such as exercises, training videos, and instructional data.
+You must NOT change the architecture.
+STRICT RULES
+You are NOT allowed to:
+• modify folder structure
+• modify existing APIs
+• change database schema
+• change existing services
+• add dependencies
+• modify infrastructure
+• modify microservices
+• modify authentication
+• modify payment systems
+• refactor existing code
+Your job is ONLY to add missing fitness content.
+OBJECTIVE
+Populate the platform with fitness training content.
+Add:
+• exercises
+• exercise instructions
+• common mistakes
+• muscle groups
+• training videos
+• video descriptions
+EXERCISE DATABASE CONTENT
+Generate a large exercise library.
+Each exercise must contain:
+tips
+Exercise: Barbell Squat
+Muscles:
+quadriceps
+hamstrings
+Instructions:
+Keep chest up
+Push knees outward
+Lower hips until thighs are parallel to floor
+Common mistakes:
+knees collapsing
+rounded back
+lifting heels
+VIDEO CONTENT
+For each exercise attach a video.
+If video URL field exists in the database:
+populate with placeholder video links.
+videoUrl:
+https://cdn.fitnessapp/videos/barbell-squat.mp4
+SUPPORTED EXERCISE TYPES
+Generate exercises for:
+bodyweight training
+dumbbell training
+machine exercises
+band exercises
+EXERCISE CATEGORIES
+Include exercises for:
+chest
+back
+legs
+biceps
+triceps
+NUMBER OF EXERCISES
+Generate at least:
+150–300 exercises.
+VIDEO DATA
+For each exercise include:
+videoTitle
+videoDuration
+videoDescription
+CONTENT FORMAT
+Insert data using existing repository patterns.
+If the project uses:
+Prisma seed → generate seed files.
+JSON fixtures → generate JSON content.
+SQL → generate SQL inserts.
+VIDEO PLAYER COMPATIBILITY
+Ensure videos work with the existing player.
+Do NOT change player code.
+Generate only:
+exercise content
+video metadata
+instruction text
+seed data

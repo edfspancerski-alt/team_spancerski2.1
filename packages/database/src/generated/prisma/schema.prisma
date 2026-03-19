@@ -1,0 +1,58 @@
+// prisma/schema.prisma
+datasource db {
+  provider = "postgresql"
+  // 
+}
+
+model Exercise {
+  id               String   @id @default(cuid())
+  name             String
+  slug             String   @unique
+  muscleGroups     String[]
+  secondaryMuscles String[]
+  equipment        String
+  difficulty       String
+  exerciseType     String
+
+  instructions   String
+  executionSteps String[]
+  tempo          String
+  tips           String[]
+  commonMistakes String[]
+  safetyNotes    String[]
+
+  videoUrl         String?
+  videoTitle       String?
+  videoDescription String?
+  videoDuration    Int?
+
+  restTime          Int
+  pacholokTechnique String
+}
+
+model Program {
+  id          String @id @default(cuid())
+  title       String
+  description String
+  duration    Int
+  difficulty  String
+  gender      String
+  level       String
+  weeklySplit String
+  progression String
+
+  weeklyStructure Json
+
+  equipmentRequired String
+  environment       String
+
+  phase1 Json
+  phase2 Json
+  phase3 Json
+  phase4 Json
+}
+
+generator client {
+  provider = "prisma-client-js"
+  output   = "../src/generated/prisma"
+}

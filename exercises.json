@@ -1,0 +1,145 @@
+{
+  "exercises": [
+    {
+      "id": "00001",
+      "name": "Agachamento Livre",
+      "environment": "HOME",
+      "equipment_required": ["bodyweight"],
+      "video_metadata": {
+        "videoTitle": "Agachamento Livre: Como Fazer Perfeitamente (Sem Equipamento)",
+        "videoUrl": "https://www.youtube.com/watch?v=U-P1Gz_2yEw",
+        "videoDuration": "00:03:45",
+        "videoDescription": "Aprenda a técnica correta para realizar o agachamento livre, um exercício fundamental com peso corporal para pernas e glúteos. Ideal para quem treina em casa."
+      },
+      "instructions": {
+        "execution": "1. Mantenha os pés afastados na largura dos ombros ou um pouco mais, com as pontas dos pés ligeiramente para fora.\n2. Mantenha o peito erguido e as costas retas durante todo o movimento.\n3. Comece o movimento empurrando os quadris para trás e dobrando os joelhos simultaneamente, como se fosse sentar em uma cadeira.\n4. Desça até que suas coxas estejam paralelas ao chão, ou o mais baixo que conseguir com boa forma.\n5. Mantenha os joelhos alinhados com os dedos dos pés.\n6. Empurre através dos calcanhares e do meio do pé para retornar à posição inicial.",
+        "tempo": "Um ritmo controlado de 2-1-1-0 (2 segundos para descer, 1 segundo de pausa na parte inferior, 1 segundo para subir, 0 segundos de pausa no topo) é recomendado para iniciantes.",
+        "common_mistakes": [
+          "Arredondar as costas.",
+          "Joelhos caindo para dentro.",
+          "Calcanhares saindo do chão.",
+          "Não descer o suficiente.",
+          "Inclinar-se excessivamente para a frente."
+        ],
+        "safety_notes": [
+          "Comece com uma amplitude de movimento confortável e aumente gradualmente a profundidade.",
+          "Concentre-se na forma em vez da velocidade.",
+          "Se você sentir dor no joelho, tente uma posição dos pés ligeiramente mais estreita ou reduza a profundidade.",
+          "Certifique-se de ter espaço adequado para realizar o movimento livremente."
+        ]
+      },
+      "training_category_tags": ["compound", "strength", "hypertrophy", "conditioning", "mobility", "warmup", "home_burn"]
+    },
+    {
+      "id": "00002",
+      "name": "Flexão de Braço (joelhos no chão)",
+      "environment": "HOME",
+      "equipment_required": ["bodyweight"],
+      "video_metadata": {
+        "videoTitle": "Flexão de Braço Feminina: Como Fazer Corretamente Com os Joelhos no Chão",
+        "videoUrl": "https://www.youtube.com/watch?v=your_video_id_here",
+        "videoDuration": "00:02:30",
+        "videoDescription": "Guia para realizar flexões de braço com os joelhos apoiados no chão, uma variação mais acessível para fortalecer peito, ombros e tríceps."
+      },
+      "instructions": {
+        "execution": "1. Comece de quatro, com os joelhos apoiados no chão e as mãos um pouco mais afastadas que a largura dos ombros.\n2. Mantenha o corpo em linha reta dos joelhos até a cabeça, contraindo o abdômen e os glúteos.\n3. Abaixe o peito em direção ao chão, dobrando os cotovelos e mantendo-os ligeiramente próximos ao corpo (não totalmente abertos).\n4. Empurre o chão para retornar à posição inicial, estendendo os braços.\n5. Desça o máximo que puder mantendo a forma.",
+        "tempo": "Um tempo de 2-0-1-0 (2 segundos para descer, 0 segundos no ponto mais baixo, 1 segundo para subir, 0 segundos no topo) é bom para iniciantes.",
+        "common_mistakes": [
+          "Deixar o quadril cair ou levantar.",
+          "Não abaixar o peito o suficiente.",
+          "Cotovelos abrindo demais para os lados.",
+          "Redondar as costas."
+        ],
+        "safety_notes": [
+          "Mantenha o abdômen contraído para proteger a lombar.",
+          "Se sentir dor nos punhos, pode usar um par de apoios de flexão ou fazer em um superfície mais macia.",
+          "Foco na amplitude e no controle do movimento."
+        ]
+      },
+      "training_category_tags": ["compound", "strength", "hypertrophy", "home_burn", "gym_pro"]
+    },
+    {
+      "id": "00003",
+      "name": "Afundo (Passada)",
+      "environment": "HOME",
+      "equipment_required": ["bodyweight"],
+      "video_metadata": {
+        "videoTitle": "Afundo (Passada) Perfeito: Como Fazer em Casa",
+        "videoUrl": "https://www.youtube.com/watch?v=your_video_id_here",
+        "videoDuration": "00:03:00",
+        "videoDescription": "Instruções passo a passo para realizar o afundo (lunges) corretamente, um excelente exercício unilateral para pernas e glúteos que melhora equilíbrio e força."
+      },
+      "instructions": {
+        "execution": "1. Comece em pé com os pés juntos. Dê um passo largo à frente com uma perna.\n2. Abaixe o corpo até que ambos os joelhos estejam dobrados em um ângulo de aproximadamente 90 graus.\n3. O joelho da frente (o que deu o passo) não deve ultrapassar a linha dos dedos do pé.\n4. O joelho de trás deve quase tocar o chão.\n5. Mantenha o tronco ereto e o core contraído.\n6. Empurre o chão com o pé da frente para retornar à posição inicial.\n7. Alterne as pernas, ou complete todas as repetições de um lado antes de trocar.",
+        "tempo": "Um ritmo de 2-0-1-0 (2 segundos descendo, 0 no fundo, 1 segundo subindo) é eficaz.",
+        "common_mistakes": [
+          "Joelho da frente ultrapassando os dedos do pé.",
+          "Não descer o suficiente.",
+          "Perder o equilíbrio.",
+          "Manter o tronco muito inclinado."
+        ],
+        "safety_notes": [
+          "Certifique-se de ter espaço suficiente para dar um passo confortável.",
+          "Mantenha o controle durante todo o movimento, especialmente na descida.",
+          "Se tiver problemas no joelho, comece com passos menores ou diminua a amplitude."
+        ]
+      },
+      "training_category_tags": ["compound", "strength", "hypertrophy", "home_burn", "anti_celulite"]
+    },
+    {
+      "id": "00004",
+      "name": "Prancha Abdominal",
+      "environment": "HOME",
+      "equipment_required": ["bodyweight"],
+      "video_metadata": {
+        "videoTitle": "Prancha Abdominal: Como Fazer Corretamente Para Definir o Abdômen",
+        "videoUrl": "https://www.youtube.com/watch?v=your_video_id_here",
+        "videoDuration": "00:01:45",
+        "videoDescription": "Aprenda a técnica correta da prancha abdominal para fortalecer o core, melhorar a postura e definir a musculatura abdominal."
+      },
+      "instructions": {
+        "execution": "1. Deite-se de bruços no chão e apoie os antebraços no chão, com os cotovelos alinhados diretamente abaixo dos ombros.\n2. Mantenha o corpo em linha reta da cabeça aos calcanhares.\n3. Contraia fortemente os músculos abdominais e os glúteos.\n4. Evite que o quadril caia ou se eleve excessivamente.\n5. Mantenha a cabeça em posição neutra, olhando para baixo.",
+        "tempo": "Segure a posição pelo tempo determinado, focando na contração muscular e na manutenção da forma.",
+        "common_mistakes": [
+          "Deixar o quadril cair.",
+          "Arqueamento da lombar.",
+          "Não contrair o abdômen o suficiente.",
+          "Manter a cabeça erguida ou o pescoço tenso."
+        ],
+        "safety_notes": [
+          "Comece com um tempo menor e aumente gradualmente conforme ganha força.",
+          "Se sentir dor na lombar, pare o exercício.",
+          "Uma boa opção para iniciantes é apoiar os joelhos no chão, mantendo a linha reta dos joelhos à cabeça."
+        ]
+      },
+      "training_category_tags": ["isolation", "strength", "conditioning", "mobility", "warmup", "home_burn", "core_anti_inflammation"]
+    },
+    {
+      "id": "00005",
+      "name": "Polichinelos",
+      "environment": "HOME",
+      "equipment_required": ["bodyweight"],
+      "video_metadata": {
+        "videoTitle": "Polichinelos para Queimar Gordura Rápido",
+        "videoUrl": "https://www.youtube.com/watch?v=abcdefg",
+        "videoDuration": "00:01:00",
+        "videoDescription": "Um exercício cardiovascular clássico e eficaz para aumentar a frequência cardíaca e queimar calorias rapidamente."
+      },
+      "instructions": {
+        "execution": "1. Comece em pé com os pés juntos e os braços ao lado do corpo.\n2. Salte, afastando os pés ligeiramente mais que a largura dos ombros e levantando os braços acima da cabeça.\n3. Salte novamente, retornando os pés à posição inicial e abaixando os braços ao lado do corpo.",
+        "tempo": "Execute o movimento de forma contínua e rítmica, mantendo a maior velocidade possível com controle.",
+        "common_mistakes": [
+          "Pousar com os joelhos completamente esticados.",
+          "Não usar os braços para impulsionar.",
+          "Movimento não coordenado."
+        ],
+        "safety_notes": [
+          "Aterrisse suavemente para minimizar o impacto nas articulações.",
+          "Se tiver problemas no joelho, pode optar por uma variação mais suave onde um pé vai para o lado de cada vez.",
+          "Mantenha o abdômen contraído."
+        ]
+      },
+      "training_category_tags": ["conditioning", "cardio", "home_burn", "full_body_burn"]
+    }
+  ]
+}

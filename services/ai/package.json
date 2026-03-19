@@ -1,0 +1,9 @@
+{
+  "name": "@repo/ai",
+  "version": "1.0.0",
+  "main": "./main.ts",
+  "types": "./main.ts",
+  "dependencies": {
+    "openai": "^4.47.1"
+  }
+}
